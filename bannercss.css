@@ -1,0 +1,27 @@
+div{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-content: center;
+}
+
+
+.main{
+	margin: 0;
+	flex: 2 0 100%;  
+	border: 1px solid red;
+}
+iframe{
+	padding: 20px;
+	flex: 2 0 100%;
+	border: 1px solid green;
+	scrolling: auto;
+}
+#space{
+	border: 1px solid blue;
+	margin: 0;
+	padding: 10px;
+	width: 100%;
+	height: 10%;
+}
